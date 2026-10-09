@@ -40537,8 +40537,8 @@ var projects = [
   {
     id: 1,
     title: "Financial Text-to-Pandas",
-    subtitle: "H\u1ECFi \u0111\xE1p s\u1ED1 li\u1EC7u t\xE0i ch\xEDnh ti\u1EBFng Vi\u1EC7t t\u1EEB b\xE1o c\xE1o OCR",
-    description: "Pipeline truy h\u1ED3i b\u1EA3ng v\xE0 t\xE0i li\u1EC7u, li\xEAn k\u1EBFt b\u1EB1ng ch\u1EE9ng, t\u1EA1o Pandas query c\xF3 th\u1EC3 ch\u1EA1y l\u1EA1i v\xE0 xu\u1EA5t CSV evidence cho b\xE0i to\xE1n ViFinQA. Thi\u1EBFt k\u1EBF \u0111\u1EB7t kh\u1EA3 n\u0103ng ki\u1EC3m ch\u1EE9ng k\u1EBFt qu\u1EA3 l\xEAn tr\u01B0\u1EDBc.",
+    subtitle: "H\u1ECFi \u0111\xE1p \u0111\u1ECBnh l\u01B0\u1EE3ng tr\xEAn b\xE1o c\xE1o t\xE0i ch\xEDnh OCR ti\u1EBFng Vi\u1EC7t",
+    description: "H\u1EC7 th\u1ED1ng truy h\u1ED3i t\xE0i li\u1EC7u v\xE0 b\u1EA3ng ngu\u1ED3n, chu\u1EA9n h\xF3a provenance, r\u1ED3i bi\xEAn d\u1ECBch k\u1EBF ho\u1EA1ch t\xEDnh to\xE1n th\xE0nh truy v\u1EA5n Pandas. C\xE2u tr\u1EA3 l\u1EDDi \u0111i k\xE8m CSV b\u1EB1ng ch\u1EE9ng \u0111\u1EC3 c\xF3 th\u1EC3 th\u1EF1c thi l\u1EA1i v\xE0 ki\u1EC3m ch\u1EE9ng \u0111\u1ED9c l\u1EADp.",
     image: null,
     tags: ["Python", "Pandas", "Information Retrieval", "OCR", "ViFinQA"],
     github: "https://github.com/TanKai-247/financial-text-to-pandas",
@@ -40547,9 +40547,20 @@ var projects = [
   },
   {
     id: 2,
+    title: "VietMedBridge",
+    subtitle: "D\u1EF1 \xE1n nh\xF3m \xB7 Truy h\u1ED3i t\xE0i li\u1EC7u y sinh \u0111a ng\xF4n ng\u1EEF",
+    description: "Tham gia ph\xE1t tri\u1EC3n pipeline truy h\u1ED3i cho truy v\u1EA5n ti\u1EBFng Vi\u1EC7t tr\xEAn ngu\u1ED3n y sinh Vi\u1EC7t, Anh v\xE0 Trung. H\u1EC7 th\u1ED1ng ki\u1EC3m to\xE1n d\u1EEF li\u1EC7u, l\u01B0u ngu\u1ED3n g\u1ED1c \u0111\u1EBFn t\u1EEBng \u0111o\u1EA1n v\u0103n b\u1EA3n, r\u1ED3i k\u1EBFt h\u1EE3p BM25, bi\u1EC3u di\u1EC5n dense v\xE0 reranking \u0111\u1EC3 x\u1EBFp h\u1EA1ng t\xE0i li\u1EC7u.",
+    image: null,
+    tags: ["Python", "Biomedical IR", "Multilingual Retrieval", "BM25", "Dense Retrieval"],
+    github: "https://github.com/Platypus27-coder/VietMedBridge",
+    demo: null,
+    featured: true
+  },
+  {
+    id: 3,
     title: "EXACT 2026",
-    subtitle: "Agent gi\u1EA3i b\xE0i to\xE1n logic v\xE0 v\u1EADt l\xFD",
-    description: "H\u1EC7 th\u1ED1ng neurosymbolic k\u1EBFt h\u1EE3p m\xF4 h\xECnh ng\xF4n ng\u1EEF m\xE3 ngu\u1ED3n m\u1EDF v\u1EDBi Z3, SymPy v\xE0 truy h\u1ED3i t\xE0i li\u1EC7u \u0111\u1EC3 gi\u1EA3i b\xE0i to\xE1n gi\xE1o d\u1EE5c v\xE0 \u0111\u01B0a ra l\u1EDDi gi\u1EA3i th\xEDch c\xF3 c\u1EA5u tr\xFAc.",
+    subtitle: "Agent neurosymbolic cho suy lu\u1EADn logic v\xE0 v\u1EADt l\xFD",
+    description: "Agent \u0111\u1ECBnh tuy\u1EBFn c\xE2u h\u1ECFi \u0111\u1EBFn b\u1ED9 gi\u1EA3i Z3 ho\u1EB7c SymPy, k\u1EBFt h\u1EE3p truy h\u1ED3i t\xE0i li\u1EC7u v\xE0 m\xF4 h\xECnh ng\xF4n ng\u1EEF m\xE3 ngu\u1ED3n m\u1EDF. K\u1EBFt qu\u1EA3 \u0111\u01B0\u1EE3c tr\xECnh b\xE0y th\xE0nh \u0111\xE1p \xE1n v\xE0 l\u1EDDi gi\u1EA3i th\xEDch c\xF3 c\u1EA5u tr\xFAc; sandbox v\xE0 b\u01B0\u1EDBc s\u1EEDa l\u1ED7i h\u1ED7 tr\u1EE3 ki\u1EC3m so\xE1t ph\xE9p suy lu\u1EADn.",
     image: null,
     tags: ["Python", "LangGraph", "Qwen", "RAG", "Z3", "SymPy"],
     github: "https://github.com/TanKai-247/EXACT-2026",
@@ -40557,10 +40568,10 @@ var projects = [
     featured: true
   },
   {
-    id: 3,
+    id: 4,
     title: "OneVoice Edge",
-    subtitle: "Phi\xEAn d\u1ECBch gi\u1ECDng n\xF3i Anh\u2013Vi\u1EC7t hai chi\u1EC1u, ho\u1EA1t \u0111\u1ED9ng ngo\u1EA1i tuy\u1EBFn",
-    description: "D\u1EF1 \xE1n c\u1EE7a Team Impact cho OneVoice AI Challenge 2026. README tr\xECnh b\xE0y pipeline l\u1ECDc \u1ED3n, nh\u1EADn d\u1EA1ng gi\u1ECDng n\xF3i, d\u1ECBch m\xE1y v\xE0 t\u1ED5ng h\u1EE3p ti\u1EBFng n\xF3i cho m\xF4i tr\u01B0\u1EDDng c\xF4ng nghi\u1EC7p.",
+    subtitle: "Phi\xEAn d\u1ECBch gi\u1ECDng n\xF3i Anh\u2013Vi\u1EC7t hai chi\u1EC1u tr\xEAn thi\u1EBFt b\u1ECB bi\xEAn",
+    description: "D\u1EF1 \xE1n nh\xF3m thi\u1EBFt k\u1EBF chu\u1ED7i x\u1EED l\xFD gi\u1ECDng n\xF3i cho m\xF4i tr\u01B0\u1EDDng c\xF4ng nghi\u1EC7p: kh\u1EED nhi\u1EC5u, nh\u1EADn d\u1EA1ng l\u1EDDi n\xF3i, d\u1ECBch m\xE1y v\xE0 t\u1ED5ng h\u1EE3p ti\u1EBFng n\xF3i. Ki\u1EBFn tr\xFAc h\u01B0\u1EDBng t\u1EDBi v\u1EADn h\xE0nh ngo\u1EA1i tuy\u1EBFn v\xE0 duy tr\xEC th\xF4ng tin c\u1EA3m x\xFAc \u1EDF chi\u1EC1u Anh\u2013Vi\u1EC7t.",
     image: null,
     tags: ["Python", "Speech AI", "ASR", "Machine Translation", "TTS"],
     github: "https://github.com/TanKai-247/OneVoice",
@@ -40568,10 +40579,10 @@ var projects = [
     featured: true
   },
   {
-    id: 4,
+    id: 5,
     title: "Datathon VinUni 2026",
-    subtitle: "D\u1EF1 b\xE1o doanh thu v\xE0 gi\xE1 v\u1ED1n h\xE0ng b\xE1n theo ng\xE0y",
-    description: "Pipeline d\xF9ng 10 \u0111\u1EB7c tr\u01B0ng l\u1ECBch v\xE0 ng\xE0y l\u01B0\u01A1ng, k\u1EBFt h\u1EE3p LightGBM, XGBoost, CatBoost v\u1EDBi ki\u1EC3m \u0111\u1ECBnh TimeSeriesSplit 5 fold. D\u1EF1 b\xE1o \u0111\u01B0\u1EE3c h\u1EADu x\u1EED l\xFD \u0111\u1EC3 b\u1EA3o \u0111\u1EA3m COGS kh\xF4ng v\u01B0\u1EE3t doanh thu.",
+    subtitle: "D\u1EF1 b\xE1o chu\u1ED7i th\u1EDDi gian cho doanh thu v\xE0 gi\xE1 v\u1ED1n",
+    description: "D\u1EF1 b\xE1o doanh thu v\xE0 COGS theo ng\xE0y b\u1EB1ng ensemble LightGBM, XGBoost v\xE0 CatBoost. M\xF4 h\xECnh s\u1EED d\u1EE5ng \u0111\u1EB7c tr\u01B0ng l\u1ECBch, ng\xE0y l\u01B0\u01A1ng v\xE0 TimeSeriesSplit 5 fold; \u0111\u1EA7u ra \u0111\u01B0\u1EE3c hi\u1EC7u ch\u1EC9nh \u0111\u1EC3 th\u1ECFa r\xE0ng bu\u1ED9c COGS kh\xF4ng v\u01B0\u1EE3t doanh thu.",
     image: null,
     tags: ["Python", "LightGBM", "XGBoost", "CatBoost", "TimeSeriesSplit"],
     github: "https://github.com/TanKai-247/Datathon-VinUni",
@@ -41433,7 +41444,7 @@ var researchData = {
   milestones: [
     { title: "AI Agents & suy lu\u1EADn", description: "\u0110\u1ECBnh tuy\u1EBFn b\xE0i to\xE1n logic v\xE0 v\u1EADt l\xFD t\u1EDBi Z3, SymPy v\xE0 LLM trong EXACT 2026." },
     { title: "LLM & RAG", description: "K\u1EBFt h\u1EE3p truy h\u1ED3i t\xE0i li\u1EC7u v\u1EDBi m\xF4 h\xECnh ng\xF4n ng\u1EEF \u0111\u1EC3 t\u1EA1o c\xE2u tr\u1EA3 l\u1EDDi c\xF3 c\u0103n c\u1EE9." },
-    { title: "Truy h\u1ED3i c\xF3 b\u1EB1ng ch\u1EE9ng", description: "Li\xEAn k\u1EBFt b\xE1o c\xE1o OCR v\u1EDBi b\u1EA3ng d\u1EEF li\u1EC7u v\xE0 Pandas query c\xF3 th\u1EC3 ch\u1EA1y l\u1EA1i trong Financial Text-to-Pandas." },
+    { title: "Truy h\u1ED3i c\xF3 b\u1EB1ng ch\u1EE9ng", description: "Truy v\u1EBFt b\u1EA3ng t\xE0i ch\xEDnh trong Financial Text-to-Pandas v\xE0 ngu\u1ED3n y sinh \u0111a ng\xF4n ng\u1EEF trong VietMedBridge." },
     { title: "Machine Learning", description: "Hu\u1EA5n luy\u1EC7n v\xE0 \u0111\xE1nh gi\xE1 ensemble d\u1EF1 b\xE1o doanh thu, COGS trong Datathon VinUni." }
   ]
 };
@@ -41513,7 +41524,7 @@ function About() {
           " ",
           /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("span", { className: "bg-gradient-to-r from-accent-blue via-accent-purple to-accent-cyan bg-clip-text text-transparent", children: "AI Agents, LLM, RAG & Machine Learning." })
         ] }),
-        /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("p", { className: "max-w-2xl text-base leading-relaxed text-zinc-400", children: "T\xF4i quan t\xE2m \u0111\u1EBFn c\xE1ch k\u1EBFt h\u1EE3p m\xF4 h\xECnh ng\xF4n ng\u1EEF, truy h\u1ED3i tri th\u1EE9c v\xE0 c\xF4ng c\u1EE5 suy lu\u1EADn th\xE0nh h\u1EC7 th\u1ED1ng AI c\xF3 th\u1EC3 ki\u1EC3m ch\u1EE9ng. C\xE1c d\u1EF1 \xE1n nh\u01B0 EXACT 2026 v\xE0 Financial Text-to-Pandas th\u1EC3 hi\u1EC7n h\u01B0\u1EDBng \u0111i n\xE0y, b\xEAn c\u1EA1nh kinh nghi\u1EC7m x\xE2y d\u1EF1ng m\xF4 h\xECnh Machine Learning." })
+        /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("p", { className: "max-w-2xl text-base leading-relaxed text-zinc-400", children: "T\xF4i quan t\xE2m \u0111\u1EBFn c\xE1ch k\u1EBFt h\u1EE3p m\xF4 h\xECnh ng\xF4n ng\u1EEF, truy h\u1ED3i tri th\u1EE9c v\xE0 c\xF4ng c\u1EE5 suy lu\u1EADn th\xE0nh h\u1EC7 th\u1ED1ng AI c\xF3 th\u1EC3 ki\u1EC3m ch\u1EE9ng. C\xE1c d\u1EF1 \xE1n nh\u01B0 EXACT 2026, VietMedBridge v\xE0 Financial Text-to-Pandas th\u1EC3 hi\u1EC7n h\u01B0\u1EDBng \u0111i n\xE0y, b\xEAn c\u1EA1nh kinh nghi\u1EC7m x\xE2y d\u1EF1ng m\xF4 h\xECnh Machine Learning." })
       ] }) }) }),
       /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Reveal, { className: "md:col-span-2", delay: 0.08, children: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(BentoCard, { className: "p-6", children: /* @__PURE__ */ (0, import_jsx_runtime17.jsxs)("div", { className: "flex h-full flex-col justify-between gap-6", children: [
         /* @__PURE__ */ (0, import_jsx_runtime17.jsxs)("div", { className: "flex items-center gap-2 font-mono text-[11px] uppercase tracking-[0.2em] text-zinc-500", children: [
@@ -41790,7 +41801,7 @@ function Projects() {
       /* @__PURE__ */ (0, import_jsx_runtime20.jsxs)("div", { ref: trackRef, className: "flex h-full items-center gap-10 pl-[6vw] pr-[8vw] will-change-transform", children: [
         /* @__PURE__ */ (0, import_jsx_runtime20.jsxs)("div", { className: "flex w-[34vw] shrink-0 flex-col justify-center", children: [
           /* @__PURE__ */ (0, import_jsx_runtime20.jsx)(Heading, {}),
-          /* @__PURE__ */ (0, import_jsx_runtime20.jsx)("p", { className: "mt-8 max-w-sm text-sm text-zinc-400 leading-relaxed", children: "C\xE1c d\u1EF1 \xE1n c\xF4ng khai t\u1EEB d\u1EF1 b\xE1o chu\u1ED7i th\u1EDDi gian v\xE0 Speech AI \u0111\u1EBFn truy h\u1ED3i th\xF4ng tin v\xE0 suy lu\u1EADn logic. Ti\u1EBFp t\u1EE5c cu\u1ED9n chu\u1ED9t \u0111\u1EC3 kh\xE1m ph\xE1." }),
+          /* @__PURE__ */ (0, import_jsx_runtime20.jsx)("p", { className: "mt-8 max-w-sm text-sm text-zinc-400 leading-relaxed", children: "C\xE1c d\u1EF1 \xE1n v\u1EC1 h\u1ECFi \u0111\xE1p \u0111\u1ECBnh l\u01B0\u1EE3ng, truy h\u1ED3i y sinh \u0111a ng\xF4n ng\u1EEF, suy lu\u1EADn neurosymbolic, Speech AI v\xE0 d\u1EF1 b\xE1o chu\u1ED7i th\u1EDDi gian. Ti\u1EBFp t\u1EE5c cu\u1ED9n chu\u1ED9t \u0111\u1EC3 kh\xE1m ph\xE1." }),
           /* @__PURE__ */ (0, import_jsx_runtime20.jsxs)("span", { className: "mt-8 inline-flex items-center gap-2 font-mono text-xs uppercase tracking-[0.2em] text-zinc-500", children: [
             "Cu\u1ED9n ngang ",
             /* @__PURE__ */ (0, import_jsx_runtime20.jsx)(ArrowRight, { className: "h-3.5 w-3.5 animate-pulse text-accent-cyan" })
@@ -41958,10 +41969,11 @@ var import_react49 = __toESM(require_react(), 1);
 
 // src/data/experience.js
 var experiences = [
-  { year: "2026", category: "AI / Data", title: "Financial Text-to-Pandas", role: "ViFinQA", description: "H\u1ECFi \u0111\xE1p s\u1ED1 li\u1EC7u t\xE0i ch\xEDnh ti\u1EBFng Vi\u1EC7t v\u1EDBi t\xE0i li\u1EC7u v\xE0 b\u1EA3ng ngu\u1ED3n c\xF3 th\u1EC3 truy v\u1EBFt." },
-  { year: "2026", category: "AI Challenge", title: "OneVoice Edge", role: "Team Impact", description: "Pipeline phi\xEAn d\u1ECBch gi\u1ECDng n\xF3i ngo\u1EA1i tuy\u1EBFn hai chi\u1EC1u d\xE0nh cho m\xF4i tr\u01B0\u1EDDng c\xF4ng nghi\u1EC7p." },
-  { year: "2026", category: "AI Challenge", title: "EXACT 2026", role: "Neurosymbolic AI", description: "K\u1EBFt h\u1EE3p LLM m\xE3 ngu\u1ED3n m\u1EDF, Z3 v\xE0 SymPy \u0111\u1EC3 gi\u1EA3i c\xE2u h\u1ECFi logic v\xE0 v\u1EADt l\xFD." },
-  { year: "2026", category: "Datathon", title: "Datathon VinUni 2026", role: "Sales Forecasting", description: "D\u1EF1 b\xE1o doanh thu v\xE0 COGS theo ng\xE0y b\u1EB1ng ensemble LightGBM, XGBoost, CatBoost v\u1EDBi TimeSeriesSplit." }
+  { year: "2026", category: "AI / Data", title: "Financial Text-to-Pandas", role: "ViFinQA", description: "Truy h\u1ED3i b\u1EB1ng ch\u1EE9ng t\u1EEB b\xE1o c\xE1o OCR v\xE0 th\u1EF1c thi k\u1EBF ho\u1EA1ch t\xEDnh to\xE1n b\u1EB1ng Pandas." },
+  { year: "2026", category: "D\u1EF1 \xE1n nh\xF3m", title: "VietMedBridge", role: "Biomedical Retrieval", description: "Truy h\u1ED3i t\xE0i li\u1EC7u y sinh \u0111a ng\xF4n ng\u1EEF v\u1EDBi provenance v\xE0 \u0111\xE1nh gi\xE1 \u1EDF m\u1EE9c t\xE0i li\u1EC7u, \u0111o\u1EA1n v\u0103n b\u1EA3n." },
+  { year: "2026", category: "AI Challenge", title: "OneVoice Edge", role: "Team Impact", description: "Thi\u1EBFt k\u1EBF pipeline kh\u1EED nhi\u1EC5u, nh\u1EADn d\u1EA1ng, d\u1ECBch v\xE0 t\u1ED5ng h\u1EE3p gi\u1ECDng n\xF3i hai chi\u1EC1u tr\xEAn thi\u1EBFt b\u1ECB bi\xEAn." },
+  { year: "2026", category: "AI Challenge", title: "EXACT 2026", role: "Neurosymbolic AI", description: "\u0110i\u1EC1u ph\u1ED1i LLM, truy h\u1ED3i t\xE0i li\u1EC7u v\xE0 b\u1ED9 gi\u1EA3i k\xFD hi\u1EC7u cho c\xE2u h\u1ECFi logic, v\u1EADt l\xFD." },
+  { year: "2026", category: "Datathon", title: "Datathon VinUni 2026", role: "Sales Forecasting", description: "D\u1EF1 b\xE1o doanh thu v\xE0 COGS theo ng\xE0y v\u1EDBi ensemble boosting v\xE0 ki\u1EC3m \u0111\u1ECBnh chu\u1ED7i th\u1EDDi gian." }
 ];
 
 // src/components/experience/Experience.jsx
